@@ -1,0 +1,70 @@
+/* General App Styling */
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column; /* Ensures vertical alignment */
+}
+
+/* Header Styling */
+.App-header {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  width: 50%; /* Adjust width for better centering */
+  max-width: 500px; /* Prevents it from being too wide */
+  text-align: center;
+}
+
+/* Animated Logo */
+.App-logo {
+  height: 120px;
+  animation: App-logo-spin infinite 10s linear;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+  background: #ff0080;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #d6006d;
+  transform: scale(1.1);
+}
+
+/* Links */
+.App-link {
+  color: #00f0ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  color: #ffea00;
+}
+
+/* Spinning Logo Animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
